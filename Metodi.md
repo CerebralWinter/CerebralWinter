@@ -1,3 +1,4 @@
+tratti da: https://it.wikibooks.org/wiki/JavaScript/Versione_stampabile
 ## oggetto document
 document.write("Hello, world!"); //sconsigliato
 
@@ -53,6 +54,7 @@ for (codice = "0".charCodeAt(0); codice <= "9".charCodeAt(0); codice ++ )
  {
  stringa = stringa + String.fromCharCode(codice);
  }
+ //stringa vale "0123456789"
 ``` 
 ___
 
