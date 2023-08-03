@@ -11,5 +11,7 @@ code snippet: ((alt+96)x3) [nomeLinguaggio] codice ((alt+96)x3)
 
 elenco puntato: - + spazio
 
-a capo: doppio spazio
+a capo: riga vuota
+
+separatore: ___
 	
