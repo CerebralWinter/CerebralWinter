@@ -74,7 +74,6 @@ ___
 https://www.w3schools.com/tags/att_meta_charset.asp
 
 The charset attribute specifies the character encoding for the HTML document.
-___
 
 ___
 ```html
@@ -87,6 +86,25 @@ https://www.geeksforgeeks.org/what-does-meta-http-equivx-ua-compatible-contentie
 Meta Tag: A tag with the http-equiv attribute set to “X-UA-Compatible” and the content attribute set to “IE=edge” is used to force Internet Explorer (IE) to use the latest version of the rendering engine. Regardless of the document’s compatibility mode.
 
 ___
+
+```html
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+```
+https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+
+width
+Controls the size of the viewport. It can be set to a specific number of pixels like width=600 or to the special value device-width, which is 100vw, or 100% of the viewport width. Minimum: 1. Maximum: 10000. Negative values: ignored.
+
+initial-scale
+Controls the zoom level when the page is first loaded. Minimum: 0.1. Maximum: 10. Default: 1. Negative values: ignored.
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+This gives the browser instructions on how to control the page's dimensions and scaling.
+___
+
 ```html
 <head>
         <title></title>
