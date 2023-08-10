@@ -1,5 +1,7 @@
 https://www.markdownguide.org/cheat-sheet/
 
+
+
 elenco numerato: 1) + spazio 
 
 
@@ -14,4 +16,5 @@ elenco puntato: - + spazio
 a capo: riga vuota
 
 separatore: ___
+
 	
