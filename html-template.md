@@ -1,13 +1,20 @@
-# elementi e attributi di un html5 template
+# documenti html5 
 
+## template di un documento vuoto
 ```html
 <!DOCTYPE html>
+<!--document type declaration-->
 <html lang="en">
+<!--document root element-->
+<!--language information-->
 <head>
+<!--document head-->    
     <meta charset="UTF-8">
+    <!-- -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--document title-->
 </head>
 <body>
     
@@ -23,6 +30,11 @@ https://html.spec.whatwg.org/multipage/syntax.html#the-doctype
 A DOCTYPE is a required preamble.
 
 DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
+
+https://www.w3.org/TR/html401/struct/global.html
+
+A valid HTML document declares what version of HTML is used in the document. The document type declaration names the document type definition (DTD) in use for the document (see [ISO8879]).
+
 ___
 ___
 ```html
@@ -35,6 +47,17 @@ The <html> tag represents the root of an HTML document.
 The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
 
 Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+https://www.w3.org/TR/html401/struct/global.html
+
+After document type declaration, the remainder of an HTML document is contained by the HTML element. Thus, a typical HTML document has this structure:
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+...The head, body, etc. goes here...
+</HTML>
+```
 ___
 
 
@@ -52,6 +75,10 @@ ___
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head?retiredLocale=it
 
 The <head> HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+
+https://www.w3.org/TR/html401/struct/global.html
+
+The HEAD element contains information about the current document, such as its title, keywords that may be useful to search engines, and other data that is not considered document content. User agents do not generally render elements that appear in the HEAD as content. They may, however, make information in the HEAD available to users through other mechanisms.
 ___
 
 ___
