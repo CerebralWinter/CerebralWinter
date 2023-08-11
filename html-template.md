@@ -1,6 +1,4 @@
 # documenti html5 
-
-## template di un documento vuoto
 ```html
 <!DOCTYPE html>
 <!--document type declaration-->
@@ -10,9 +8,11 @@
 <head>
 <!--document head-->    
     <meta charset="UTF-8">
-    <!-- -->
+    <!-- generic metainformation-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- generic metainformation-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- generic metainformation-->
     <title>Document</title>
     <!--document title-->
 </head>
@@ -63,11 +63,15 @@ ___
 
 
 ```html
-<html lang="it"></html>
+<html lang="en"></html>
 ```
 https://html.spec.whatwg.org/multipage/dom.html#attr-lang
 
 The lang attribute (in no namespace) specifies the primary language for the element's contents and for any of the element's attributes that contain text. Its value must be a valid BCP 47 language tag, or the empty string. Setting the attribute to the empty string indicates that the primary language is unknown.
+
+https://www.w3.org/TR/html401/struct/dirlang.html#language-info
+
+This attribute specifies the base language of an element's attribute values and text content. The default value of this attribute is unknown.
 ___
 ```html
 <head></head>
@@ -79,7 +83,6 @@ The <head> HTML element contains machine-readable information (metadata) about t
 https://www.w3.org/TR/html401/struct/global.html
 
 The HEAD element contains information about the current document, such as its title, keywords that may be useful to search engines, and other data that is not considered document content. User agents do not generally render elements that appear in the HEAD as content. They may, however, make information in the HEAD available to users through other mechanisms.
-___
 
 ___
 ```html
@@ -91,6 +94,10 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 
 
 The meta HTML element represents metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.
+
+https://www.w3.org/TR/html401/struct/global.html#meta-data
+
+HTML lets authors specify meta data -- information about a document rather than document content -- in a variety of ways.
 
 ___
 ```html
