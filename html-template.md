@@ -1,7 +1,12 @@
+# the web platform
+
+https://en.wikipedia.org/wiki/Web_platform
+
+
 # html
 Oxford dictionary of computer science
 
-HTML (hypertext mark-up language) A form of *SGML intended for use on the World Wide Web.
+HTML (hypertext mark-up language) A form of *SGML intended for use on the World Wide Web. A particular feature of HTML is the use of tags that include information about *hyperlinks, either to other places in the document or to other documents on the Web. Text surrounded by these tags is usually underlined and in a different colour when displayed by the browser, and can be clicked to jump to the link. HTML has a set of basic tags, mostly defining format rather than content, although some *browsers use nonstandard tags. The current version is HTML5. See also CSS, DHTML, XHTML, XML.
 
 https://www.britannica.com/technology/HTML
 
