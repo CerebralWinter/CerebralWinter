@@ -1,3 +1,25 @@
+# html
+Oxford dictionary of computer science
+
+HTML (hypertext mark-up language) A form of *SGML intended for use on the World Wide Web.
+
+https://www.britannica.com/technology/HTML
+
+HTML, in full hypertext markup language, a formatting system for displaying material retrieved over the Internet. Each retrieval unit is known as a Web page (from World Wide Web), and such pages frequently contain hypertext links that allow related pages to be retrieved. HTML is the markup language for encoding Web pages. It was designed by the British scientist Sir Tim Berners-Lee at the CERN nuclear physics laboratory in Switzerland during the 1980s. HTML markup tags specify document elements such as headings, paragraphs, and tables. They mark up a document for display by a computer program known as a Web browser. The browser interprets the tags, displaying the headings, paragraphs, and tables in a layout that is adapted to the screen size and fonts available to it.
+
+HTML documents also contain anchors, which are tags that specify links to other Web pages. An anchor has the form <A HREF= “http://www.britannica.com”> Encyclopædia Britannica</A>, where the quoted string is the URL (universal resource locator) to which the link points (the Web “address”) and the text following it is what appears in a Web browser, underlined to show that it is a link to another page. What is displayed as a single page may also be formed from multiple URLs, some containing text and others graphics.
+
+https://www.britannica.com/technology/SGML
+
+SGML, in full standard generalized markup language, an international computer standard for the definition of markup languages; that is, it is a metalanguage. Markup consists of notations called “tags,” which specify the function of a piece of text or how it is to be displayed. SGML emphasizes descriptive markup, in which a tag might be <emphasis>. Such a markup denotes the document function, and it could be interpreted as reverse video on a computer screen, underlining by a typewriter, or italics in typeset text.  
+SGML is used to specify DTDs (document type definitions). A DTD defines a kind of document, such as a report, by specifying what elements must appear in the document—e.g., < Title >—and by giving rules for the use of document elements, such as that a paragraph may appear within a table entry but a table may not appear within a paragraph. A marked-up text may be analyzed by a parsing program to determine if it conforms to a DTD. Another program may read the markups to prepare an index or to translate the document into PostScript for printing. Yet another might generate large or enhanced type or audio for readers with visual or hearing disabilities.
+
+https://www.britannica.com/technology/markup-language
+
+markup language, standard text-encoding system consisting of a set of symbols inserted in a text document to control its structure, formatting, or the relationship between its parts. The most widely used markup languages are SGML (Standard Generalized Markup Language), HTML (Hypertext Markup Language), and XML (Extensible Markup Language). The markup symbols can be interpreted by a device (computer, printer, browser, etc.) to control how a document should look when printed or displayed on a monitor. A marked-up document thus contains two types of text: text to be displayed and markup language on how to display it.
+
+
+
 # documenti html5 
 ```html
 <!DOCTYPE html>
@@ -25,6 +47,10 @@ ___
 ```html
 <!DOCTYPE html>
 ```
+https://www.w3schools.com/tags/tag_doctype.asp
+
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+
 https://html.spec.whatwg.org/multipage/syntax.html#the-doctype
 
 A DOCTYPE is a required preamble.
