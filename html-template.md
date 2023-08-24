@@ -1,7 +1,37 @@
 # the web platform
 
-https://en.wikipedia.org/wiki/Web_platform
+una lista di tecnologie facenti parte secondo chatgpt della web platform:
 
+- HTML (Hypertext Markup Language)
+- CSS (Cascading Style Sheets)
+- JavaScript
+- HTTP (Hypertext Transfer Protocol)
+- Web Browsers (Chrome, Firefox, Safari, Edge, etc.)
+- APIs (Application Programming Interfaces)
+- XML (eXtensible Markup Language)
+- JSON (JavaScript Object Notation)
+- AJAX (Asynchronous JavaScript and XML)
+- Web Servers (Apache, Nginx, IIS, etc.)
+- DNS (Domain Name System)
+- URL (Uniform Resource Locator)
+- SSL/TLS (Secure Sockets Layer/Transport Layer Security)
+- Cookies
+- Responsive Web Design
+- Web Standards (W3C, WHATWG)
+- Front-end Frameworks (React, Angular, Vue.js)
+- Server-side Languages (PHP, Python, Ruby, etc.)
+- Databases (MySQL, PostgreSQL, MongoDB, etc.)
+- Content Management Systems (WordPress, Drupal, Joomla, etc.)
+- Web Security (Cross-Site Scripting, Cross-Site Request Forgery, etc.)
+- Single-page Applications (SPAs)
+- Progressive Web Apps (PWAs)
+- Web Accessibility (WCAG - Web Content Accessibility Guidelines)
+- Multimedia (Audio, Video) Support (HTML5, codecs)
+- WebRTC (Web Real-Time Communication)
+- Web Storage (localStorage, sessionStorage)
+- Web Workers
+- Browser DevTools (Inspect, Console, Network, etc.)
+- Web Assembly (Wasm)
 
 # html
 Oxford dictionary of computer science
