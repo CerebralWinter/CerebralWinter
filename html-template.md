@@ -1,6 +1,6 @@
 # the web platform
 
-una lista di tecnologie facenti parte secondo chatgpt della web platform:
+una lista di tecnologie facenti parte secondo chatgpt della web platform: 
 
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
